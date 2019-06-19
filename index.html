@@ -2,22 +2,23 @@
 <html>
 <head>
 	<title>Cakes</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" /> 
 	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
-	<div class="header">
-		<div class="container">
-
-			<div class="row ">
-				
-				<div class="col-lg align-self-end">
-					
-					<div class="navigation">
+	<div class="container nav ">
+			<div class="row align-items-flex-end ">
+				<div class="col-lg-1 logo-container align-self-end">
+					<a href="#" class="col-lg-1 logo">Cakes </a>
+					<div class="menu-icon" onclick="openNav()"></div>
+				</div>	
+				<div class="col-lg-9 align-self-end">
+					<div class="navigation" id="topNav">
 						
 						<ul>
-							<li><a href="#" class="logo">Cakes</a></li>
 							<li><a href="#">Наши торты</a></li>
 							<li><a href="#">Индивидуальный заказ</a></li>
 							<li><a href="#">Отзывы</a></li>
@@ -25,12 +26,19 @@
 							<li><a href="#">Как заказать</a></li>
 							<li><a href="#">Контакты</a></li>
 						</ul>
+						
 					</div>
 				</div>
 				<div class="col-lg-2 align-self-end">
 					<div class="number"> +7 906 899 92 96</div>
 				</div>
 			</div>
+		</div>
+	<div class="header">
+		
+		<div class="container">
+			
+			
 			<div class="row header-content">
 				<div class="col-lg-5 left-header">
 					<div class="title">
@@ -49,7 +57,7 @@
 		</div>
 	</div>
 	<div class="container">
-		<h1>Наши торты</h1>
+		<h1 class="ourcakes">Наши торты</h1>
 		<div class="row cakes">
 			<div class="col-lg-7 ">
 				<div href="#" class="item">
